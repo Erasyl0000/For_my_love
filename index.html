@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Поли ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Первая страница -->
+        <div class="slide active" id="slide1">
+            <img src="photo1.jpg" alt="Первая фото">
+            <p class="text">Открой, чтобы посмотреть</p>
+            <button onclick="nextSlide()">Открыть</button>
+        </div>
+
+        <!-- Вторая страница -->
+        <div class="slide" id="slide2">
+            <img src="photo2.jpg" alt="Вторая фото">
+            <p class="text">Я сделал это для тебя :)</p>
+            <button onclick="playMusic()">Воспроизвести музыку</button>
+            <audio id="audio" src="song.mp3"></audio>
+        </div>
+
+        <!-- Третья страница -->
+        <div class="slide" id="slide3">
+            <img src="photo3.jpg" alt="Третья фото">
+            <p class="text">Это твоя любимая песня ❤️</p>
+            <p class="hint">Тапни разок</p>
+            <button onclick="nextSlide()">➡️</button>
+        </div>
+
+        <!-- Четвёртая страница -->
+        <div class="slide" id="slide4">
+            <img src="photo4.jpg" alt="Четвёртая фото">
+            <p class="text">А вот тут мы играем впервые в Майн</p>
+            <p class="hint">Нажми ещё разок</p>
+            <button onclick="nextSlide()">➡️</button>
+        </div>
+
+        <!-- Пятая страница -->
+        <div class="slide" id="slide5">
+            <img src="photo5.jpg" alt="Пятая фото">
+            <p class="text">А вот тут мы познакомились</p>
+            <p class="final-text">
+                Поля, спасибо за всё, дорогая ❤️  
+                Ты – самое лучшее, что случилось в моей жизни.  
+                Я безумно счастлив, что у меня есть ты.  
+                Каждый момент с тобой – это счастье, каждая улыбка – это свет, который делает мой мир ярче.  
+                Я люблю тебя всем сердцем и душой, и всегда буду рядом, несмотря ни на что.  
+                Спасибо за твою доброту, за твой смех, за каждую секунду, которую мы провели вместе.  
+                Ты – моё самое дорогое сокровище.  
+                Люблю тебя бесконечно ❤️  
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
